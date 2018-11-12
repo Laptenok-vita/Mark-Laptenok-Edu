@@ -1,0 +1,80 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, u, i,  dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-size: 100%;
+	box-sizing: border-box;
+}
+table {
+	border-collapse: collapse; 
+	border-spacing: 0;
+}
+td, td img {
+	vertical-align: top;
+} 
+input, select, button, textarea {
+	margin: 0;
+	font-size: 100%;
+}
+input[type="text"], input[type="password"], textarea {
+	padding: 0;
+}
+input[type="checkbox"] {
+	vertical-align: bottom;
+}
+input[type="radio"] {
+	vertical-align: text-bottom;
+}
+sub {
+	vertical-align: sub;
+	font-size: smaller;
+}
+sup {
+	vertical-align: super;
+	font-size: smaller;
+}
+/* --------------- /reset.css --------------- */
+
+/* --------------- базовые настройки ---------*/
+html {
+	overflow-y: scroll; 
+}
+html, body {
+	height: 100%; 
+}
+body {
+	background: #fff;
+	color: #000;
+	text-align: left;
+	font: 13px Verdana, "Geneva CY", "DejaVu Sans", sans-serif;
+	line-height: 1;
+}
+input, select, button, textarea {
+	font-family: Verdana, "Geneva CY", "DejaVu Sans", sans-serif;
+}
+label, input[type="button"], input[type="submit"], button {
+	cursor: pointer;
+}
+a, a:visited {
+	margin: 10px;
+	padding: 0;
+	font-size: 100%;
+	color: #16456a;
+	text-decoration: none;
+	vertical-align: baseline;
+	background: transparent;
+	border-width: 1px;
+	border-style: none none dashed none;
+	padding-bottom: 1px;
+	transition: color 0.3s linear, border 0.3s linear;
+}
+
+a:hover, a:focus, a:active  {
+	color: #277dbe;
+	border-style: none none solid none;
+	transition: border-color 0.1s linear, color 0.1s linear;
+	cursor: pointer;
+}
